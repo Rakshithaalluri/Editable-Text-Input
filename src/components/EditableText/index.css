@@ -1,0 +1,58 @@
+.bg-container {
+  background-color: #f5d0fe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.text-container {
+  width: 30%;
+  height: 30%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #000000;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input-button-container {
+  display: flex;
+}
+
+.input {
+  outline: none;
+  border: 1px #cbd2d9 solid;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #d946ef;
+  height: 30px;
+  width: 50px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.inputText {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 4px;
+}
